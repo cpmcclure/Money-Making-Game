@@ -1,0 +1,113 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+.rupee:hover,
+a:hover {
+  cursor: url('../assets/woodensword.png'), auto;
+}
+
+.plusFifty {
+  background: url('../assets/plusfifty.png') no-repeat;
+  background-size: 94%;
+  background-position: bottom 5px center;
+}
+
+.plusTwenty {
+  background: url('../assets/plustwenty.png') no-repeat;
+  background-size: 94%;
+  background-position: bottom 5px center;
+}
+
+.minusForty {
+  background: url('../assets/minusforty.png') no-repeat;
+  background-size: 94%;
+  background-position: bottom 6px center;
+}
+
+span {
+  color: white;
+  font-family: 'Press Start 2P', sans-serif;
+  font-size: 40px;
+}
+
+a {
+  color: white;
+  font-family: 'Press Start 2P', sans-serif;
+  font-size: 30px;
+}
+/******************************************
+/* LAYOUT
+/*******************************************/
+body {
+  background: black;
+}
+
+
+video {
+  object-fit: cover;
+  width: 1300px;
+  height: 764px;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+section {
+  position: relative;
+  top: 385px;
+  width: 500px;
+  margin: 0 auto 0 411px;
+  height: 200px;
+}
+
+.rupee {
+  height: 150px;
+  position: relative;
+  display: inline-block;
+  width: 125px;
+  margin-right: 26px;
+}
+
+
+span {
+  position: absolute;
+  top: 50px;
+  left: 100px;
+  padding: 20px 20px 20px 70px;
+  background: black url('../assets/wallet.png') no-repeat;
+  background-size: 40px;
+  background-position: left 28px top 19px;
+}
+
+a {
+  position: absolute;
+  top: 50px;
+  right: 100px;
+  padding: 20px 20px 20px 80px;
+  background: black url('../assets/triforce.png') no-repeat;
+  background-size: 13%;
+  background-position: left 8px top 8px;
+}
+
+#playOne {
+  top: 45%;
+  right: 40%;
+  padding: 20px 20px 20px 80px;
+  background: black url('../assets/triforce.png') no-repeat;
+  background-size: 20%;
+  background-position: left 8px top 8px;
+}
+
+.hidden {
+  display: none;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/

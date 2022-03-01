@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+    	<meta charset="utf-8">
+    	<meta name="description" content="This is where your description goes">
+    	<meta name="keywords" content="one, two, three">
+
+		<title>Let's Play Money Making Game</title>
+
+		<!-- external CSS link -->
+		<link rel="preconnect" href="https://fonts.googleapis.com"> 
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+		<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="css/reset.css">
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+	<body>
+		<audio loop id="cashLoop">
+			<source src="assets/lozrup.wav" type="audio/wav">
+		</audio>
+		<audio id="cashEnd">
+			<source src="assets/LOZ_Text.wav" type="audio/wav">
+		</audio>
+		
+		<video playsinline muted loop id="bgVid">
+			<source src="assets/lozloop6.mp4" type="video/mp4">
+		</video>
+		<a id="playAgain" class="hidden">Play Again</a>
+		<section id="container">
+			<div id="left" class="rupee"></div>
+			<div id="center" class="rupee"></div>
+			<div id="right" class="rupee"></div>
+		</section>
+		<video playsinline id="introVid">
+			<source src="assets/introsound.mp4" type="video/mp4">
+		</video>
+		<a id="playOne">Play</a>
+		<span id="wallet">100</span>
+		<script type="text/javascript" src="js/alt.js"></script>
+	</body>
+</html>
