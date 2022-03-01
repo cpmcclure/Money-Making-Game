@@ -2,6 +2,8 @@
 
 Play the game here: https://cpmcclure.github.io/Money-Making-Game/
 
+__WARNING: This is not responsive. It is going to look weird on big displays. I'll see what I can do to fix that in the future__
+
 ### Looking at the code
 
 There are two JavaScript files in the js folder – main.js and alt.js
